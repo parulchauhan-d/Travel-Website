@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: rgb(185 196 198);
+    margin-bottom: 2px;
+    /* position: sticky;
+    top: 0;
+    overflow: hidden; */
+   }
+
+.logo {
+    width: 50%;
+    display: inline-block;
+}
+
+.logo img {
+    height: 100px;
+    width: 107px;
+    margin-left: 80px;
+    padding: 8px;
+}
+
+.nav {
+    display: inline-block;
+    position: absolute;
+    top: px;
+    width: 40%;
+    margin: 20px auto;
+    margin-bottom: 0px;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    /* border-bottom: 3px solid black; */
+}
+
+.nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav li a:hover,
+.nav li a.active {
+    color: rgb(143, 55, 55);
+    border-bottom: 3px solid rgb(143, 55, 55);
+    transition: 0.2s ease;
+}
+
+.hero {
+    /* position: relative; */
+    height: 90vh;
+    width: 100%;
+    background-image: url('../Images/pexels-mads-thomsen-2739013.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    display: inline-block;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(216, 129, 129);
+    padding: 10px;
+    margin: 90px;
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+    width: 55%;
+    margin-left: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+ p {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+ .btn {
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 23px;
+}
+
+.section{
+    background-color: #ddd;
+   padding: 4rem 10px;
+}
+
+
+.container{
+     width: 65%;
+    margin: 0px auto;
+   }
+
+   .row{
+   height: 250px;
+    /* padding: 30px; */
+    box-shadow: 0px 0px 15px 0px rgb(105, 104, 104);
+}
+
+.row1{
+    margin-bottom: 80px;
+}
+
+.row1 .div1{
+    width: 50%;
+    height: 100%;
+    display: block;
+    float: left;
+    }
+
+  .row1 .div2{
+    width: 50%;
+    height: 100%;
+    display: block;
+    float: right;
+    padding:  30px 30px 0px 30px;
+    background-color: whitesmoke;
+}
+    
+.div1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.row2 .div3{
+    width: 50%;
+    height: 100%;
+    display: block;
+    float: left;
+    background-color: whitesmoke;
+    padding: 30px;
+}
+
+.row2 .div4{
+    width: 50%;
+    height: 100%;
+    display: block;
+    float: right;
+   
+    background-color: whitesmoke;
+}
+
+.div4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.row h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.row p{
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family:  italic;
+    margin-bottom: 20px;
+}
+
+ .row .btn1{
+background-color: transparent;
+padding: 5px 15px;
+border: 2px solid red;
+text-transform: uppercase;
+font-weight: 500;
+}
+
+.row h1{
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: lightgray;
+}
+
+.boxes{
+   box-shadow: 0px 0px 20px 0px rgb(62, 61, 61);
+}
+
+.box{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 15px;
+}
+
+.features{
+    padding: 4rem 10px;
+}
+
+.boxes::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box h3{
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.box p{
+   word-spacing: 2px;
+   letter-spacing: 1.5px;
+}
+
+.box1, .box3{
+    background-color: #263238;
+    color: #fff;
+}
+
+.box2{
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: #fff;
+}
+
+.box1 i, .box3 i{
+    color: red;
+}
+
+.box i{
+    font-size: 20px;
+}
+
+.footer{
+    background-color:#263238;
+    color: white;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+.icons i{
+  margin: 15px;
+  font-size: 20px;
+}
+
+

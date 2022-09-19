@@ -1,0 +1,133 @@
+
+ .container{
+    margin-top: 30px;
+ }
+
+ .container h1{
+    font-weight: 500;
+    border-bottom: 4px solid red;
+    letter-spacing: 1.5px;
+    color: rgb(65, 65, 65);
+ }
+
+ .container p{
+letter-spacing: 1.5px;
+color: rgb(65, 65, 65);
+font-size: 13px;
+line-height: 1.5;
+margin-bottom: 10px;
+ }
+
+ .para{
+    text-align: center;
+    }
+
+  .para1, .para2{
+   width: 50%;
+    float: left;
+    text-align: center;
+ }
+
+ .para::after{
+    content: "";
+    display: block;
+    clear: both;
+ }
+
+ .para ul{
+    list-style-type: none;
+ }
+
+ .para ul li{
+    padding: 4px;
+    font-size: 15px;
+ }
+
+ .para1 li::before{
+          content: '\2713';
+          color: red;
+          font-weight: bold;
+          padding-right: 3px;
+         
+ }
+
+ .para2 li::before{
+    content: '\2713';
+    color: red;
+    font-weight: bold;
+    padding-right: 3px;
+   
+}
+
+.numbers{
+    margin-top: 35px;
+}
+
+.numbers div{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.numbers::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.numbers h2{
+    color: red;
+    margin-bottom: 5px;
+}
+
+.numbers h5{
+    color: rgb(65, 65, 65);
+    letter-spacing: 2px;
+}
+
+.wrapper{
+    margin-top: 40px;
+    background-image: linear-gradient( 111.2deg,  rgba(232,5,5,1) 1.7%, rgba(245,49,191,1) 98.7% );
+    color: white;
+}
+
+.wrap1{
+    float: left;
+    width: 40%;
+    
+    padding: 10px;
+}
+
+.wrap2{
+    width: 30%;
+    float: right;
+    
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+ .wrap1 p{
+color: white;
+letter-spacing: 2px;
+word-spacing: 2px;
+font-weight: bold;
+ }
+
+ .wrap2 a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 3px solid white;
+    padding: 10px 25px;
+ }
+
+
+ 
